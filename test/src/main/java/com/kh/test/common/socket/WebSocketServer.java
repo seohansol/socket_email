@@ -1,13 +1,10 @@
 package com.kh.test.common.socket;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
-import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
-@Configuration
-@EnableWebSocketMessageBroker
+
 public class WebSocketServer extends TextWebSocketHandler {
 	
 	/**
